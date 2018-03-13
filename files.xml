@@ -12,14 +12,14 @@
 		<compilerflag value="-I${NATIVE_TOOLKIT_PATH}/sdl/include/configs/rpi/" if="rpi"/>
 		
 		<file name="${NATIVE_TOOLKIT_PATH}/faudio/src/F3DAudio.c" />
-		<file name="${NATIVE_TOOLKIT_PATH}/faudio/src/FACT3D.c" />
+		<!-- <file name="${NATIVE_TOOLKIT_PATH}/faudio/src/FACT3D.c" /> -->
 		<file name="${NATIVE_TOOLKIT_PATH}/faudio/src/FAudio.c" />
 		<file name="${NATIVE_TOOLKIT_PATH}/faudio/src/FAudio_internal.c" />
-		<file name="${NATIVE_TOOLKIT_PATH}/faudio/src/FACT.c" />
-		<file name="${NATIVE_TOOLKIT_PATH}/faudio/src/FACT_internal.c" />
-		<file name="${NATIVE_TOOLKIT_PATH}/faudio/src/XNA_Song.c" />
-		<file name="${NATIVE_TOOLKIT_PATH}/faudio/src/e_log.c" />
-		<file name="${NATIVE_TOOLKIT_PATH}/faudio/src/e_log10.c" />
+		<!-- <file name="${NATIVE_TOOLKIT_PATH}/faudio/src/FACT.c" /> -->
+		<!-- <file name="${NATIVE_TOOLKIT_PATH}/faudio/src/FACT_internal.c" /> -->
+		<!-- <file name="${NATIVE_TOOLKIT_PATH}/faudio/src/XNA_Song.c" /> -->
+		<!-- <file name="${NATIVE_TOOLKIT_PATH}/faudio/src/e_log.c" /> -->
+		<!-- <file name="${NATIVE_TOOLKIT_PATH}/faudio/src/e_log10.c" /> -->
 		<file name="${NATIVE_TOOLKIT_PATH}/faudio/src/FAudio_platform_sdl2.c" />
 		
 	</files>
